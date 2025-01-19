@@ -1,0 +1,236 @@
+/* ==========================Header===================== */
+.las_header_web{
+    position: fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index: 99;
+}
+.las_header_strip{
+    background:#000000;
+    align-items: center;
+    width:100%;
+}
+.las_header_strip .row{
+    align-items: center;
+}
+.las_header_strip_left :where(a){
+    align-items: center;
+    margin: 0px 20px;
+}
+.las_header_strip_left :where(i){
+    margin:0px 5px;
+    padding:0px 5px;
+    color:#ffffff;
+}
+.las_header_strip_left :where(p){
+    color:#ffffff;
+}
+.las_header_strip_left_email:hover i,
+.las_header_strip_left_email:hover p {
+    color: #71AD01;
+}
+.las_header_strip_left_phone:hover i,
+.las_header_strip_left_phone:hover p {
+    color: #71AD01;
+}
+.las_header_strip_right{
+    display: flex;
+    justify-content: end;
+}
+.las_header_strip_right :where(a){
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 6px;
+    margin: 5px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.las_header_strip_right :where(a):hover{
+    background-color: #71AD01;
+}
+.las_header_strip_right :where(i){
+    color:#000000;
+    font-size: 20px;
+}
+
+/* --------------------------- */
+
+.las_header_menu{
+    background:#ffffff;
+    padding:10px 0px;
+}
+.las_header_menu .row{
+    align-items: center;
+}
+.las_header_menu_logo img{
+    width:50%;
+    margin:0px 30px
+}
+.las_header_menu_list{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+.las_header_menu_list :where(a){
+    padding:10px;
+    font-size: 16px;
+}
+.las_header_menu_list :where(a):hover{
+    color: #71AD01 !important;
+}
+
+/* ----------------------------- */
+
+.las_header_app{
+    display:none;
+    position:fixed;
+    top:0px;
+    width: 100%;
+    z-index: 99;
+    background:#ffffff;
+}
+.las_app_menu{
+    width:100%;
+    display:flex;
+    align-items: center;
+    padding:10px;
+}
+.las_app_menu :where(a){
+    width:50%;
+}
+.las_app_menu img{
+    width:40%;
+}
+.las_app_menu i{
+    font-size: 24px;
+    float: right;
+}
+
+/* ----------------------------- */
+
+#Enquiry_Form_Modal img{
+    width:15%;
+}
+.las_enduiry_form .modal{
+    --bs-modal-width:1000px;
+}
+.las_enduiry_form .las_close_btn{
+    width:200px !important;
+}
+.las_ef_contact_widget .col-lg-3{
+    padding:10px;
+}
+.las_enduiry_form .las_ef_grid{
+    background:#000000;
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+    height:100%;
+    border: 5px solid #000000;
+    transition:.5s;
+}
+.las_enduiry_form .las_ef_grid:hover{
+    border: 5px solid #71AD01;
+    border-radius: 0px;
+}
+.las_enduiry_form .las_ef_grid i{
+    font-size: 30px;
+    color:#ffffff;
+    padding:20px;
+}
+.las_enduiry_form .las_ef_grid h3{
+    color:#ffffff;
+    font-size: 24px;
+}
+.las_enduiry_form .las_ef_grid address{
+    color:#ffffff;
+    opacity: .7;
+    line-height: 20px;
+    font-size: 14px;
+}
+.las_enduiry_form .las_ef_grid a{
+    color:#fff !important;
+    opacity: .7;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+
+.las_ef_form{
+    background:#ececec;
+    margin:30px auto;
+    padding:20px;
+}
+.las_ef_row1{
+    display:flex;
+}
+.las_ef_row1 div{
+    width:50%;
+}
+.las_ef_row1 div input{
+    width:98%;
+    border-radius:50px;
+    border:1px solid lightgrey;
+    text-indent: 10px;
+    transition: 0.5s;
+}
+.las_ef_row1 div input:hover,
+.las_ef_row1 div input:focus,
+.las_ef_row1 div input:active{
+    outline:none;
+    border:1px solid #71AD01;
+    box-shadow: none;
+}
+.las_ef_form textarea{
+    width:99%;
+    border-radius:10px;
+    border:1px solid lightgrey;
+    text-indent: 10px;
+    transition: 0.5s;
+    box-shadow: none !important;
+}
+.las_ef_row1 div textarea:hover,
+.las_ef_row1 div textarea:focus,
+.las_ef_row1 div textarea:active{
+    outline:none;
+    border:1px solid #71AD01 !important;
+    box-shadow: none !important;
+}
+.las_ef_btn{
+    margin-top:20px;
+}
+.las_ef_btn button{
+    margin:5px;
+}
+
+/* ------------------------------ */
+
+.offcanvas{
+    width:60% !important;
+}
+.offcanvas-header{
+    border-bottom: 1px solid lightgrey;
+}
+.offcanvas-body{
+    padding:0px !important;
+}
+.offcanvas ul{
+    margin:5px 0px;
+    padding:5px 0px;
+}
+.offcanvas ul li{
+    padding: 10px 15px;
+    background: #efefef;
+    margin: 2px 0px;
+}
+.offcanvas ul li a{
+    font-size: 15px;
+}
+.offcanvas-body i{
+    margin-right:10px;
+    font-size: 15px;
+}
