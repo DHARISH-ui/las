@@ -234,3 +234,306 @@
     margin-right:10px;
     font-size: 15px;
 }
+
+/* ==========================Hero Section===================== */
+
+.las_hero_section{
+    background-image: url('../images/las_home_hero_img.jpg');
+    background-attachment: fixed;
+    width:100%;
+    height:30vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin-top:150px;
+    display: flex;
+    align-items: center;
+}
+.las_hero_content .las_hero_cnt_p1{
+    color:#ffffffd1;
+    text-align: center !important;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* ==========================about description Section===================== */
+
+.las_about_description{
+    padding: 50px 0px;
+}
+.las_about_description h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.las_about_description p{
+    text-align: center;
+    padding:10px 100px;
+    line-height: 32px;
+}
+
+
+/* ==========================Staff Section===================== */
+
+.las_staff_sec{
+    padding:40px 0px;
+    background: #fafafa;
+}
+.las_staff_sec h3{
+    text-align: center;
+    padding:20px 0px 50px 0px;
+}
+.las_staff_grid{
+    margin:10px 0px;
+    padding:10px 0px;
+    background:#ffffff;
+    border-radius:10px;
+}
+.las_staff_grid img{
+    width:100%;
+    display:flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+}
+.las_staff_info h4{
+    text-align: center;
+}
+.las_staff_info p{
+    text-align: center;
+}
+.las_testi_sec{
+    padding-bottom: 100px;
+}
+/* ==========================Testimonial Section===================== */
+
+.las_testi_sec h3{
+    text-align: center;
+    padding:60px 0px;
+}
+.las_testimonial{
+   width:1000px;
+    margin:0px auto;
+}
+.carousel-inner{
+    width:100% !important;
+}
+.carousel-inner .active{
+    border:none !important;
+}
+.carousel-indicators{
+    bottom: -50px !important;
+}
+.carousel-indicators button {
+    opacity: 1;
+    background: #777777 !important;
+    border: 1px solid #777777 !important;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background: #000000 !important;
+    border: 1px solid #000000 !important;
+}
+
+
+/* ==========================Footer Section===================== */
+
+.las_footer_sec{
+    background:#000000;
+    padding:30px 0px;
+    margin:10px 0px;
+}
+.las_footer_logo img{
+    width:150px;
+    margin-bottom:15px;
+}
+.las_footer_sec a{
+    color: #c5c5c5 !important;
+}
+.las_footer_cnt{
+    padding-right:30px;
+}
+.las_footer_sec p{
+    color: #c5c5c5 !important;
+    font-size: 15px !important;
+    text-align: justify;
+}
+.las_footer_sec h4{
+    color:#ffffff !important;
+}
+.las_footer_sec ul{
+    margin:10px 0px;
+    padding: 0px;
+}
+.las_footer_sec ul li{
+    list-style: none;
+    padding:2px 0px;
+    margin:2px 0px;
+    display:flex;
+    align-items: center;
+}
+.las_footer_sec i {
+    font-size: 14px;
+    margin-right:10px;
+    color:#c5c5c5;
+}
+.las_footer_QL{
+    padding-left:10px;
+    margin-left:20px;
+}
+.las_footer_SM{
+    display:flex;
+    align-items: center;
+    margin-bottom:20px;
+    padding-bottom:5px;
+}
+.las_footer_SM a i{
+    font-size: 22px;
+    color:#000000;
+    margin:0px;
+}
+.las_footer_SM :where(a){
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 10px;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.las_footer_SM :where(a):hover{
+    background-color: #71AD01;
+}
+
+
+/* ==========================Media Query===================== */
+
+@media only screen and (max-width:800px){
+    .las_header_web{
+        display:none;
+    }
+    .las_header_app{
+        display:block;
+    }
+    .las_contact_form_i{
+        display:block;
+    }
+    .las_map_address{
+        width:100%;
+    }
+    .las_contact_form_i form{
+        width:100%;
+    }
+}
+@media only screen and (min-width:1001px) and (max-width:1200px){
+    .las_testimonial {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:801px) and (max-width:1000px){
+    .las_header_strip_left :where(a) {
+        margin: 0px 2px;
+    }
+    .las_header_menu_logo img{
+        width: 70%;
+    }
+    .las_header_menu_list :where(a){
+        padding:5px;
+        font-size: 15px;
+    }
+    #Enquiry_Form_Modal img{
+        width:17%;
+    }
+    .las_hero_section {
+        margin-top: 125px;
+    }
+    .las_footer_QL {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .las_about_description p {
+        padding: 10px 10px;
+        line-height: 28px;
+    }
+    .las_testimonial {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:800px){
+    #Enquiry_Form_Modal img{
+        width:25%;
+    }
+    .las_enduiry_form .las_close_btn {
+        width: 400px !important;
+    }
+    .las_app_menu img{
+        width:30%;
+    }
+    .las_app_menu i{
+        font-size: 26px;
+    }
+    .las_hero_section {
+        height: 20vh;
+        margin-top: 80px;
+    }
+    .las_footer_QL {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .las_about_description p {
+        padding: 10px 10px;
+        line-height: 26px;
+    }
+    .las_testimonial {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:451px) and (max-width:600px){
+    .las_app_menu img{
+        width:45%;
+    }
+    .las_app_menu i{
+        font-size: 24px;
+    }
+    .las_hero_section {
+        height: 15vh;
+        margin-top: 80px;
+    }
+    .las_footer_QL {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .las_about_description p {
+        padding: 10px 10px;
+        line-height: 24px;
+    }
+    .las_testimonial {
+        width: 100%;
+    }
+}
+@media only screen  and (max-width:450px){
+    .las_app_menu i{
+        font-size: 24px;
+    }
+    .las_app_menu img{
+        width:55%;
+    }
+    .las_hero_section {
+        height: 15vh;
+        margin-top: 80px;
+    }
+    .las_footer_QL {
+        padding-left: 0;
+        margin-left: 0;
+    }   
+    .las_about_description p {
+        padding: 10px 10px;
+        line-height: 24px;
+    }
+    .las_testimonial {
+        width: 100%;
+    }
+}

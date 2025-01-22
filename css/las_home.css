@@ -317,6 +317,15 @@
     height:55%;
     font-size: 15px !important;
 }
+.las_service_icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.las_service_icon img{
+    width:40px;
+    height:40px;
+}
 
 /* ==========================Who we are Section===================== */
 
